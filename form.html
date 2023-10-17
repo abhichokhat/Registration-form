@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+   <h3 class="regi">Registration Form</h3>
+   <form action="/action.php">
+    <!--input tag used for input on screen-->
+    <br>
+    <div class="user">
+    <input type="text" placeholder="User ID"><br>
+    <input type="password" placeholder="Type password">
+    </div>
+    <!--in input radio atttribut is used for radio button or singal clickable button-->
+    <br><h4 class="sel">Select your class:-</h4>
+    <label class="rad" for="100"><input type="radio" value="classII" name="class">classII
+    <input type="radio" value="classIII" name="class">classIII
+    </label><br>
+   <br><!--Checkbox attribute buttons used for checkbox buttons -->
+   <h4 class="sel">Select your subject:-</h4>
+   <input type="checkbox" value="Maths" name="abhi"id="">Math
+   <br>
+   <input type="checkbox" value="Maths" name="abhi"id="">chem
+   <br>
+   <input type="checkbox" value="Maths" name="abhi"id="">Bio
+   <br>
+   <input type="checkbox" value="Maths" name="abhi"id="">Phy
+   <br>
+   <!--select and option used for creat select which have multioption-->
+   <h4 class="sel">Select your city:-</h4>
+   <select class="ssl" name="city">
+    <option value="Pune">Pune</option>
+    <option value="Delhi"> Delhi</option>
+    <option value="Goa">Goa</option>
+    <option value="Sahadattpur">Sahadattpur</option>
+   </select>
+   <br>
+   <br>
+   <textarea class="sel" name="Feedback" id="101" placeholder="Plece give your feedback"
+   rows="5">Feedback</textarea>
+   <br>
+   <input class="sel" type="submit" value="submit">
+    </main>
+</form>
+</body>
+</html>
